@@ -3,7 +3,7 @@ NAME	=	test
 $(NAME):
 	gcc -o $(NAME) main.c
 
-test_run: $(NAME)
+tests_run: $(NAME)
 	./$(NAME)
 
 clean:
