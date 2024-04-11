@@ -67,5 +67,5 @@ jobs:
       - name: Mirror to repository
         uses: pixta-dev/repository-mirroring-action@v1
         with:
-          git_ssh_private_key: ${{ secrets.SALMAN_ZIB }}
-          mirror_url: https://github.com/EpitechPromo2028/B-DOP-200-BAR-2-1-chocolatine-salman.ahmed
+          ssh_private_key: ${{ secrets.SALMAN_ZIB }}
+          target_repo_url: https://github.com/EpitechPromo2028/B-DOP-200-BAR-2-1-chocolatine-salman.ahmed
